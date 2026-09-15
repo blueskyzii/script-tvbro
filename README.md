@@ -1,1 +1,1 @@
-javascript:(()=>{document.querySelectorAll('.mk-title').forEach(e=>{e.style.cssText+=';white-space:nowrap;overflow:hidden;text-overflow:ellipsis;height:1.5em;line-height:1.5em;'})})()
+javascript:(()=>{let s=document.createElement('style');s.id='custom-mk';s.textContent='.mk-title{white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;height:1.5em!important;line-height:1.5em!important}';document.head.appendChild(s)})()
